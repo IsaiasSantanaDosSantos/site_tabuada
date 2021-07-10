@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="..css/estilo.css"> <!--Caminho para pasta externa com estilos CSS-->
+    <title>Tabuada</title> <!--Titulo-->
+</head>
+<body>
+    <header>
+        <h1>Tabuada</h1> <!--Titulo do cabeçalhio-->
+    </header>
+    <section> <!--Seção-->
+         <div>
+            <p>Selecione qual tabuada você quer:</p>
+            <p>Número → <input type="number" name="num" id="txtn"></p> <!--Tabuado do...-->
+            <p><input type="button" value="Gerar Tabuada" onclick="calcular()"></p> <!--Botão para chamar função-->
+
+         </div>
+         <div> 
+             <select name="tabuada" id="tab" size="10">
+                <option>
+                    Será gerada aqui...
+                </option>
+             </select> <!--Tabuada será mostrada aqui-->
+         </div>
+    </section>
+    <footer> <!--Roda pé-->
+         <p>&copy; - 2021 Desenvolvido por Isaias Santana Dos Santos.</p>
+    </footer>
+    <script src="..javascript/script.js"></script> <!--Caminho para pasta externa com interações JavaScript-->
+</body>
+</html>
